@@ -23,7 +23,7 @@ export default function Textarea(props) {
   }
   const handleColorClick = () => {
     let col=document.getElementById("txt_area");
-    col.innerHTML.style.color="red";
+    col.style.color="green";
   }
   const handleOnChange = (event) => {
     // console.log("onchange was clicked!")
@@ -39,8 +39,8 @@ export default function Textarea(props) {
       </div>
       <button type="buton" className='btn btn-primary mx-2' onClick={handleUpClick}>uppar_case</button>
       <button type="buton" className='btn btn-primary mx-2' onClick={handledownpClick}>lower_case</button>
-      <button type="buton" className='btn btn-primary mx-2' onClick={handleClearClick}>clear all</button>
       <button type="buton" className='btn btn-primary mx-2' onClick={handleColorClick}>Text color</button>
+      <button type="buton" className='btn btn-primary mx-2' onClick={handleClearClick}>clear all</button>
 
 
       <div className="container">
