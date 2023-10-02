@@ -11,19 +11,24 @@ export default function Textarea(props) {
     // console.log("uppercase was clicked!")
     let newtext = text.toUpperCase();
     setText(newtext);
+    props.showAlert("converted to upper case","success");
+    
   }
   const handledownpClick = () => {
     // console.log("lowercase was clicked!")
     let newtext = text.toLowerCase();
     setText(newtext);
+    props.showAlert("converted to lower  case","success");
   }
   const handleClearClick = () => {
     let newtext = "";
     setText(newtext);
+    props.showAlert("all text clear!!","success");
   }
   const handleColorClick = () => {
     let col=document.getElementById("txt_area");
     col.style.color="green";
+    props.showAlert(`converted text color to ${col.style.color}`,"success");
   }
   const handleOnChange = (event) => {
     // console.log("onchange was clicked!")
