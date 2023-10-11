@@ -6,6 +6,14 @@ import About from './component/About';
 import React, { useState } from 'react';
 import Alert from './component/Alert';
 // import About from './component/About';
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link,
+//   useRouteMatch,
+//   useParams
+// } from "react-router-dom";
 
 function App() {
   const [mode, setmode] = useState('dark');
@@ -43,13 +51,19 @@ function App() {
   }
   return (
     <>
+  
       {/* <Navbar title="TextUtil" link="about"/> */}
-      <Navbar togglemode={togglemode} mode={mode} btn={btn} />
+      <Navbar togglemode={togglemode} mode={mode} btn={btn} title={"Text_util"} />
       <Alert alert={alert} />
       <div className="container">
         <About mode={mode} />
         <Textarea  showAlert={showAlert}heading="Enter Details" mode={mode} />
+     
+       
       </div>
+       
+        
+
     </>
 
   );
