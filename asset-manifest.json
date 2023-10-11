@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react_learning/static/css/main.d1b05096.chunk.css",
+    "main.js": "/react_learning/static/js/main.7557c4e3.chunk.js",
+    "main.js.map": "/react_learning/static/js/main.7557c4e3.chunk.js.map",
+    "runtime~main.js": "/react_learning/static/js/runtime~main.22692b3b.js",
+    "runtime~main.js.map": "/react_learning/static/js/runtime~main.22692b3b.js.map",
+    "static/js/2.af3fc02c.chunk.js": "/react_learning/static/js/2.af3fc02c.chunk.js",
+    "static/js/2.af3fc02c.chunk.js.map": "/react_learning/static/js/2.af3fc02c.chunk.js.map",
+    "static/js/3.5b0ae9b5.chunk.js": "/react_learning/static/js/3.5b0ae9b5.chunk.js",
+    "static/js/3.5b0ae9b5.chunk.js.map": "/react_learning/static/js/3.5b0ae9b5.chunk.js.map",
+    "index.html": "/react_learning/index.html",
+    "precache-manifest.0c42df623313fa118b2c92bb575d0a56.js": "/react_learning/precache-manifest.0c42df623313fa118b2c92bb575d0a56.js",
+    "service-worker.js": "/react_learning/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/react_learning/static/css/main.d1b05096.chunk.css.map",
+    "static/media/logo.svg": "/react_learning/static/media/logo.06e73328.svg"
+  }
+}
