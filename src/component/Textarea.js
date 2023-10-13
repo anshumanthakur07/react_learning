@@ -50,7 +50,7 @@ export default function Textarea(props) {
 
       <div className="container">
         <h1>Your test summary</h1>
-        <p> Number of words::{text.split(" ").length} number of charevters ::{text.length}</p>
+        <p> Number of words::{text.split(" ").length} number of charecters ::{text.length}</p>
         <h2>preview</h2>
         <p>{text}</p>
 
