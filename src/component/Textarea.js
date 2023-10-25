@@ -40,17 +40,17 @@ export default function Textarea(props) {
     <>
       <h1>{props.heading}</h1>
       <div className="mb-3" >
-        <textarea className="form-control" id="txt_area" value={text} onChange={handleOnChange}  style={{background:props.mode==='dark'?'grey':'white'}}  rows="8"></textarea>
+        <textarea className="form-control" id="txt_area" value={text} onChange={handleOnChange}  style={{background:props.mode==='dark'?'#304c4a':'white'}}  rows="8"></textarea>
       </div>
-      <button type="buton" className='btn btn-primary mx-2' onClick={handleUpClick}>upper_case</button>
-      <button type="buton" className='btn btn-primary mx-2' onClick={handledownpClick}>lower_case</button>
-      <button type="buton" className='btn btn-primary mx-2' onClick={handleColorClick}>Text color</button>
-      <button type="buton" className='btn btn-primary mx-2' onClick={handleClearClick}>clear all</button>
+      <button type="buton" className='btn btn-primary mx-2 my-1'  onClick={handleUpClick}>upper_case</button>
+      <button type="buton" className='btn btn-primary mx-2 my-1'  onClick={handledownpClick}>lower_case</button>
+      <button type="buton" className='btn btn-primary mx-2  my-1' onClick={handleColorClick}>Text color</button>
+      <button type="buton" className='btn btn-primary mx-2 my-1' onClick={handleClearClick}>clear all</button>
 
 
       <div className="container">
         <h1>Your test summary</h1>
-        <p> Number of words::{text.split(" ").length} number of charecters ::{text.length}</p>
+        <p> Number of words::{text.split(" ").filter((element)=>{ return element.length }).length} number of charecters ::{text.length}</p>
         <h2>preview</h2>
         <p>{text}</p>
 

@@ -42,7 +42,7 @@ function App() {
 
       setmode('dark');
       setbtn('enable light mode')
-      document.body.style.backgroundColor = 'grey';
+      document.body.style.backgroundColor = '#304c4a';
       showAlert("dark mode is enabled", "success");
     }
     
